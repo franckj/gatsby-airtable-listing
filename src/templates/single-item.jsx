@@ -37,8 +37,8 @@ export default (props) => {
               <Img fluid={cover.childImageSharp.fluid} alt={name} />
             </div>
             <div className="w-full lg:w-2/5 lg:pl-4">
-              <Feature label="Country" value={country} />
-              <Feature label="What to see?" value={tags} />
+              <Feature label="Type" value={country} />
+              <Feature label="Topic" value={tags} />
               <Feature label="More info" value={url} />
               <p className="mt-4 whitespace-pre-line text-sm lg:text-base leading-normal text-blue-900 dark:text-blue-600">
                 {description}
