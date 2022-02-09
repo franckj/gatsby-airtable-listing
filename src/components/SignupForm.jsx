@@ -16,8 +16,8 @@ export const SignupForm = () => {
         <div className="flex w-full md:w-1/2 lg:w-auto">
           <input
             aria-label="E-mail address"
-            className="flex-1 lg:w-64 rounded-l-lg bg-white dark:bg-gray-900 placeholder-blue-800 dark:placeholder-blue-600 text-blue-800 dark:text-blue-400 px-4 py-1 border border-blue-700 dark:border-blue-400 appearance-none rounded-left text-lg leading-loose focus:outline-none focus:shadow-outline"
-            maxLength="60"
+            className="flex-1 lg:w-44 rounded-l-lg bg-white dark:bg-gray-900 placeholder-blue-800 dark:placeholder-blue-600 text-blue-800 dark:text-blue-400 px-4 py-1 border border-blue-700 dark:border-blue-400 appearance-none rounded-left text-lg leading-loose focus:outline-none focus:shadow-outline"
+            maxLength="40"
             name="email"
             placeholder="Your e-mail"
             required
